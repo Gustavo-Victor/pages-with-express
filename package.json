@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js --watch localhost 3000"
+    "server": "nodemon index.js --watch localhost 5000"
   },
   "keywords": [
     "express",

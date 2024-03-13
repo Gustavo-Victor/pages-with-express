@@ -6,7 +6,7 @@ import userRouter from "./users/index.js";
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url)); 
 const basePath = path.join(__dirname, "templates"); 
 const app = express();
-const port = 3000; 
+const port = 5000; 
 
 app.use("/users", userRouter);
 app.use(express.static("public"));
